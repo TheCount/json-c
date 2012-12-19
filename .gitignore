@@ -13,7 +13,12 @@
 /config.sub
 /configure
 /debian/autoreconf.*
-/debian/*.debhelper.log
+/debian/*.debhelper*
+/debian/*.substvars
+/debian/files
+/debian/libjson0/
+/debian/libjson0-dev/
+/debian/libjson0-dbg/
 /debian/tmp/
 /depcomp
 /doc
