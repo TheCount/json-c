@@ -14,6 +14,7 @@
 /configure
 /debian/autoreconf.*
 /debian/*.debhelper.log
+/debian/tmp/
 /depcomp
 /doc
 /install-sh
