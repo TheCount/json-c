@@ -9,6 +9,7 @@
 /config.status
 /config.sub
 /configure
+/debian/autoreconf.*
 /debian/*.debhelper.log
 /depcomp
 /doc
