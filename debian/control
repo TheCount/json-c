@@ -2,7 +2,7 @@ Source: json-c
 Priority: extra
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 XSBC-Original-Maintainer: fabien boucher <fabien.dot.boucher@gmail.com>
-Build-Depends: debhelper (>= 8.1.3)
+Build-Depends: debhelper (>= 8.1.3), dh-autoreconf
 Standards-Version: 3.8.3
 Section: libs
 Homepage: http://oss.metaparadigm.com/json-c/

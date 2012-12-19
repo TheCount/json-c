@@ -5,4 +5,4 @@ override_dh_strip:
 	dh_strip --dbg-package=libjson0-dbg
 
 %:
-	dh  $@
+	dh  $@ --with autoreconf
