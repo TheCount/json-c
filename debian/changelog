@@ -1,3 +1,9 @@
+json-c (0.10) precise; urgency=low
+
+  * Update to 0.10 git head.
+
+ -- Alexander Klauer <Alexander.Klauer@itwm.fraunhofer.de>  Wed, 19 Dec 2012 13:30:53 +0100
+
 json-c (0.9-1ubuntu1) oneiric; urgency=low
 
   * Build for multiarch.  LP: #825342.

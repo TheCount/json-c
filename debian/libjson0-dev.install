@@ -1,5 +1,8 @@
 usr/lib/*/libjson.la
 usr/lib/*/libjson.a
 usr/lib/*/libjson.so
+usr/lib/*/libjson-c.la
+usr/lib/*/libjson-c.a
+usr/lib/*/libjson-c.so
 usr/include/*
 usr/lib/*/pkgconfig
