@@ -21,6 +21,7 @@ libjson_cinclude_HEADERS = \
 	debug.h \
 	json.h \
 	json_config.h \
+	json_c_version.h \
 	json_inttypes.h \
 	json_object.h \
 	json_object_iterator.h \
@@ -48,6 +49,7 @@ endif
 libjson_c_la_SOURCES = \
 	arraylist.c \
 	debug.c \
+	json_c_version.c \
 	json_object.c \
 	json_object_iterator.c \
 	json_tokener.c \
@@ -65,7 +67,7 @@ maintainer-clean-local:
 
 if ENABLE_OLDNAME_COMPAT
 install-data-hook:
-	test \! -e "$(DESTDIR)@includedir@json" || rm "$(DESTDIR)@includedir@/json"
+	test \! -e "$(DESTDIR)@includedir@/json" || rm "$(DESTDIR)@includedir@/json"
 	$(LN_S) json-c "$(DESTDIR)@includedir@/json"
 
 uninstall-local:
